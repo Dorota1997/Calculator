@@ -47,6 +47,7 @@
             this.button16 = new System.Windows.Forms.Button();
             this.button17 = new System.Windows.Forms.Button();
             this.button18 = new System.Windows.Forms.Button();
+            this.equation = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // result
@@ -257,11 +258,23 @@
             this.button18.UseVisualStyleBackColor = true;
             this.button18.Click += new System.EventHandler(this.operator_Click);
             // 
+            // equation
+            // 
+            this.equation.AutoSize = true;
+            this.equation.BackColor = System.Drawing.SystemColors.Window;
+            this.equation.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.equation.ForeColor = System.Drawing.SystemColors.ButtonShadow;
+            this.equation.Location = new System.Drawing.Point(12, 12);
+            this.equation.Name = "equation";
+            this.equation.Size = new System.Drawing.Size(0, 23);
+            this.equation.TabIndex = 19;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(257, 258);
+            this.Controls.Add(this.equation);
             this.Controls.Add(this.button18);
             this.Controls.Add(this.button17);
             this.Controls.Add(this.button16);
@@ -281,6 +294,7 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.result);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.ShowIcon = false;
@@ -312,6 +326,7 @@
         private System.Windows.Forms.Button button16;
         private System.Windows.Forms.Button button17;
         private System.Windows.Forms.Button button18;
+        private System.Windows.Forms.Label equation;
     }
 }
 

@@ -27,9 +27,17 @@ namespace Calculator
             {
                 result.Clear();
             }
-
+            operation_pressed = false;
             Button button = (Button)sender;
-            result.Text = result.Text + button.Text;
+            if (button.Text == ".")
+            {
+                if(!result.Text.Contains("."))
+                {
+                    result.Text = result.Text + button.Text;
+                }
+            }
+            else
+                result.Text = result.Text + button.Text;
         }
 
         private void button14_Click(object sender, EventArgs e)
@@ -43,12 +51,14 @@ namespace Calculator
             operation = button.Text;
             value = Double.Parse(result.Text);
             operation_pressed = true;
-
+            equation.Text = value + " " + operation;
 
         }
 
         private void button15_Click(object sender, EventArgs e)
         {
+            equation.Text = "";
+
             switch (operation)
             {
                 case "+":
@@ -65,14 +75,12 @@ namespace Calculator
                     break;
                 default:
                     break;
-                    operation_pressed = false;
-
             }
         }
 
         private void button13_Click(object sender, EventArgs e)
         {
-            result.Clear();
+            result.Text = "0";
             value = 0;
         }
     }
