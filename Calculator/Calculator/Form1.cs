@@ -72,16 +72,20 @@ namespace Calculator
             switch (operation)
             {
                 case "+":
-                    result.Text = (value + Double.Parse(result.Text)).ToString();
+                    // result.Text = (value + Double.Parse(result.Text)).ToString();
+                    result.Text = Operators.Add(value, Double.Parse(result.Text)).ToString();
                     break;
                 case "-":
-                    result.Text = (value - Double.Parse(result.Text)).ToString();
+                    // result.Text = (value - Double.Parse(result.Text)).ToString();
+                    result.Text = Operators.Sub(value, Double.Parse(result.Text)).ToString();
                     break;
                 case "/":
-                    result.Text = (value / Double.Parse(result.Text)).ToString();
+                    // result.Text = (value / Double.Parse(result.Text)).ToString();
+                    result.Text = Operators.Div(value, Double.Parse(result.Text)).ToString();
                     break;
                 case "*":
-                    result.Text = (value * Double.Parse(result.Text)).ToString();
+                    // result.Text = (value * Double.Parse(result.Text)).ToString();
+                    result.Text = Operators.Mult(value, Double.Parse(result.Text)).ToString();
                     break;
                 default:
                     break;
