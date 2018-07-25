@@ -52,17 +52,22 @@
             // 
             // result
             // 
-            this.result.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.result.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.result.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.result.Location = new System.Drawing.Point(4, 12);
             this.result.Name = "result";
-            this.result.Size = new System.Drawing.Size(249, 39);
+            this.result.Size = new System.Drawing.Size(249, 35);
             this.result.TabIndex = 0;
             this.result.Text = "0";
             this.result.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // seven
             // 
-            this.seven.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.seven.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.seven.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.seven.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.seven.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.seven.ForeColor = System.Drawing.Color.Black;
             this.seven.Location = new System.Drawing.Point(4, 56);
             this.seven.Name = "seven";
             this.seven.Size = new System.Drawing.Size(45, 45);
@@ -73,7 +78,11 @@
             // 
             // six
             // 
-            this.six.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.six.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.six.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.six.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.six.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.six.ForeColor = System.Drawing.Color.Black;
             this.six.Location = new System.Drawing.Point(106, 107);
             this.six.Name = "six";
             this.six.Size = new System.Drawing.Size(45, 45);
@@ -84,7 +93,11 @@
             // 
             // five
             // 
-            this.five.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.five.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.five.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.five.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.five.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.five.ForeColor = System.Drawing.Color.Black;
             this.five.Location = new System.Drawing.Point(55, 107);
             this.five.Name = "five";
             this.five.Size = new System.Drawing.Size(45, 45);
@@ -95,7 +108,11 @@
             // 
             // two
             // 
-            this.two.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.two.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.two.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.two.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.two.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.two.ForeColor = System.Drawing.Color.Black;
             this.two.Location = new System.Drawing.Point(55, 158);
             this.two.Name = "two";
             this.two.Size = new System.Drawing.Size(45, 45);
@@ -106,7 +123,11 @@
             // 
             // nine
             // 
-            this.nine.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.nine.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.nine.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.nine.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.nine.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.nine.ForeColor = System.Drawing.Color.Black;
             this.nine.Location = new System.Drawing.Point(106, 56);
             this.nine.Name = "nine";
             this.nine.Size = new System.Drawing.Size(45, 45);
@@ -117,7 +138,11 @@
             // 
             // one
             // 
-            this.one.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.one.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.one.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.one.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.one.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.one.ForeColor = System.Drawing.Color.Black;
             this.one.Location = new System.Drawing.Point(4, 158);
             this.one.Name = "one";
             this.one.Size = new System.Drawing.Size(45, 45);
@@ -128,7 +153,11 @@
             // 
             // four
             // 
-            this.four.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.four.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.four.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.four.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.four.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.four.ForeColor = System.Drawing.Color.Black;
             this.four.Location = new System.Drawing.Point(4, 107);
             this.four.Name = "four";
             this.four.Size = new System.Drawing.Size(45, 45);
@@ -139,7 +168,11 @@
             // 
             // eight
             // 
-            this.eight.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.eight.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.eight.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.eight.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.eight.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.eight.ForeColor = System.Drawing.Color.Black;
             this.eight.Location = new System.Drawing.Point(55, 56);
             this.eight.Name = "eight";
             this.eight.Size = new System.Drawing.Size(45, 45);
@@ -150,7 +183,11 @@
             // 
             // three
             // 
-            this.three.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.three.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.three.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.three.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.three.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.three.ForeColor = System.Drawing.Color.Black;
             this.three.Location = new System.Drawing.Point(106, 158);
             this.three.Name = "three";
             this.three.Size = new System.Drawing.Size(45, 45);
@@ -161,7 +198,11 @@
             // 
             // dec
             // 
-            this.dec.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.dec.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.dec.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.dec.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.dec.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.dec.ForeColor = System.Drawing.Color.Black;
             this.dec.Location = new System.Drawing.Point(106, 209);
             this.dec.Name = "dec";
             this.dec.Size = new System.Drawing.Size(45, 45);
@@ -172,7 +213,11 @@
             // 
             // zero
             // 
-            this.zero.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.zero.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.zero.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.zero.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.zero.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.zero.ForeColor = System.Drawing.Color.Black;
             this.zero.Location = new System.Drawing.Point(4, 209);
             this.zero.Name = "zero";
             this.zero.Size = new System.Drawing.Size(96, 45);
@@ -183,7 +228,11 @@
             // 
             // times
             // 
-            this.times.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.times.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.times.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.times.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.times.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.times.ForeColor = System.Drawing.Color.Black;
             this.times.Location = new System.Drawing.Point(157, 107);
             this.times.Name = "times";
             this.times.Size = new System.Drawing.Size(45, 45);
@@ -194,7 +243,11 @@
             // 
             // button13
             // 
-            this.button13.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.button13.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.button13.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button13.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.button13.ForeColor = System.Drawing.Color.Black;
             this.button13.Location = new System.Drawing.Point(208, 107);
             this.button13.Name = "button13";
             this.button13.Size = new System.Drawing.Size(45, 45);
@@ -205,7 +258,11 @@
             // 
             // button14
             // 
-            this.button14.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.button14.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.button14.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button14.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.button14.ForeColor = System.Drawing.Color.Black;
             this.button14.Location = new System.Drawing.Point(208, 56);
             this.button14.Name = "button14";
             this.button14.Size = new System.Drawing.Size(45, 45);
@@ -216,7 +273,11 @@
             // 
             // equal
             // 
-            this.equal.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.equal.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.equal.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.equal.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.equal.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.equal.ForeColor = System.Drawing.Color.Black;
             this.equal.Location = new System.Drawing.Point(208, 158);
             this.equal.Name = "equal";
             this.equal.Size = new System.Drawing.Size(45, 96);
@@ -227,7 +288,11 @@
             // 
             // add
             // 
-            this.add.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.add.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.add.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.add.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.add.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.add.ForeColor = System.Drawing.Color.Black;
             this.add.Location = new System.Drawing.Point(157, 209);
             this.add.Name = "add";
             this.add.Size = new System.Drawing.Size(45, 45);
@@ -238,7 +303,11 @@
             // 
             // div
             // 
-            this.div.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.div.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.div.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.div.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.div.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.div.ForeColor = System.Drawing.Color.Black;
             this.div.Location = new System.Drawing.Point(157, 56);
             this.div.Name = "div";
             this.div.Size = new System.Drawing.Size(45, 45);
@@ -249,7 +318,11 @@
             // 
             // sub
             // 
-            this.sub.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.sub.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.sub.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.sub.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.sub.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.sub.ForeColor = System.Drawing.Color.Black;
             this.sub.Location = new System.Drawing.Point(157, 158);
             this.sub.Name = "sub";
             this.sub.Size = new System.Drawing.Size(45, 45);
@@ -261,9 +334,9 @@
             // equation
             // 
             this.equation.AutoSize = true;
-            this.equation.BackColor = System.Drawing.SystemColors.Window;
+            this.equation.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.equation.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.equation.ForeColor = System.Drawing.SystemColors.ButtonShadow;
+            this.equation.ForeColor = System.Drawing.Color.Black;
             this.equation.Location = new System.Drawing.Point(12, 21);
             this.equation.Name = "equation";
             this.equation.Size = new System.Drawing.Size(0, 23);
@@ -273,6 +346,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Silver;
             this.ClientSize = new System.Drawing.Size(257, 258);
             this.Controls.Add(this.equation);
             this.Controls.Add(this.sub);
