@@ -1,8 +1,8 @@
 # Calculator
 
-                           Menu                   |                    Kalkulatoror
+                           Menu                   |                    Kalkulator
 :------------------------------------------------:|:------------------------------------------------:
-![error](https://github.com/Dorota1997/Calculator/blob/master/images/menu.jpg) | ![error](https://github.com/Dorota1997/Calculator/blob/master/images/kalk.gif)
+![error](https://github.com/Dorota1997/Calculator/blob/master/images/menu.JPG) | ![error](https://github.com/Dorota1997/Calculator/blob/master/images/kalk.gif)
 
 
 #### Kalkulator ####
